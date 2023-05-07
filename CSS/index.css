@@ -1,0 +1,131 @@
+body {
+    margin: 8px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    background: url(Image/Project\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 1590px 1000px; */
+    color: white;
+    /* border: 3px solid white; */
+    /* image-rendering: pixelated; */
+    font-family: 'Baloo Bhai', cursive;
+
+}
+
+.left {
+    /* border: 3px solid red; */
+    margin: -15px 0px 0px 10px;
+    padding: 14px 0px 15px 0px;
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+
+
+}
+
+.mid {
+    /* border: 3px solid red; */
+    margin: 3px;
+    position: absolute;
+    left: 377px;
+    top: 14px;
+
+}
+
+.right {
+    /* border: 3px solid red; */
+    margin: 14px 18px;
+    position: absolute;
+    right: 33px;
+    top: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    margin: 31px;
+    /* font-weight: bold; */
+    font-size: 24px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+
+.left img {
+    width: 133px;
+    image-resolution: 122px;
+    margin: -8px 12px 12px 29px;
+    filter: invert(100%);
+
+}
+
+.logo {
+    margin: -14px 43px;
+    font-size: 12px;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 1px 1px 1px 1px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: 3px solid yellow;
+    /* width: ; */
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.btn:hover {
+    color: rgb(215, 215, 60);
+}
+
+
+.container {
+    border: 3px solid white;
+    margin: 151px 346px 52px 346px;
+    padding: 65px 43px 39px 39px;
+    border-radius: 26px;
+    text-align: center;
+}
+
+.header {
+    /* border: 3px solid white; */
+    margin: -3px 1px 0px 1px;
+    padding: 2px 6px 103px 0px;
+    position: sticky;
+    background-color: #17171678;
+
+}
+
+.form-group {
+    margin: 6px 8px 11px 265px;
+    /* border: 3px solid yellow;
+    border-radius: 10px; */
+    padding: 1px 1px 6px 1px;
+    font-size: 25px;
+    width: 197px;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    width: 157px;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+    border-radius: 10px;
+
+
+
+}
